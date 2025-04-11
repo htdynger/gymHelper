@@ -50,6 +50,7 @@ const Record = () => {
 
     const deleteData = () => {
         localGymData('')
+        document.location.reload()
     }
 
     return (
@@ -104,12 +105,12 @@ const Record = () => {
                         
                     </>
                 )
-            }) : <h1> asd </h1>}
+            }) : <h1 className={classes.noRecordMessage}> Нет записанных тренировок. </h1>}
 
-            <div onClick={deleteData} className={classes.containerDeleteData}>
+            {Array.isArray(recordData) && <div onClick={deleteData} className={classes.containerDeleteData}>
                 <button className={classes.buttonDeleteData}> Удалить историю </button>
                 <img alt="Удалить историю" className={classes.iconDeleteData} src={deleteIconURL} />
-            </div>
+            </div>}
         </>
     )
 }

@@ -19,14 +19,12 @@ const App = () => {
     return (
         <>
             {activeSection === 'none' && (
-                <>
-                    <button onClick={() => setActiveSection('main')}> качаться </button>
+                <div>
+                    
+                    <h1> я заебался это делать, так по идее хватит</h1>
 
-                    <button onClick={() => setActiveSection('settings')}> настройки </button>
 
-                    <button onClick={() => setActiveSection('record')}> история </button>
-
-                </>
+                </div>
             )}
 
             {activeSection === 'main' && (
