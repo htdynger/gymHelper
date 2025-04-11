@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/gymHelper/static/css/main.88a052b8.css",
+    "main.js": "/gymHelper/static/js/main.e0e184da.js",
+    "static/js/453.2d4159f7.chunk.js": "/gymHelper/static/js/453.2d4159f7.chunk.js",
+    "static/media/icon_2.webp": "/gymHelper/static/media/icon_2.6e12fb25ec6a35d13ea0.webp",
+    "static/media/icon_1.webp": "/gymHelper/static/media/icon_1.77fa07193b3ab5959689.webp",
+    "static/media/icon_0.webp": "/gymHelper/static/media/icon_0.791bfed6ef2253940ff3.webp",
+    "index.html": "/gymHelper/index.html",
+    "main.88a052b8.css.map": "/gymHelper/static/css/main.88a052b8.css.map",
+    "main.e0e184da.js.map": "/gymHelper/static/js/main.e0e184da.js.map",
+    "453.2d4159f7.chunk.js.map": "/gymHelper/static/js/453.2d4159f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88a052b8.css",
+    "static/js/main.e0e184da.js"
+  ]
+}
