@@ -1,0 +1,41 @@
+.set {
+    background-color: #defe;
+    
+    width: 90%;
+    margin-top: 10px;
+    height: 8vh;
+    border: 0 ;
+    
+    padding-left: 3vh;
+    font-size: 12px;
+    font-weight: 750;
+    display: flex;
+    border-radius: 10px;
+    justify-self: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 750;
+    
+}
+.deleteSetButton {
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #defe;
+    font-size: 12px;
+    font-weight: 750;
+    
+}
+.checkboxContainer {
+    border-right: 2px solid #000 ;
+    border-left: 2px solid #000 ;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    align-self: center;
+}
+.setText {
+    text-align: center;
+    align-self: center;
+}

@@ -1,0 +1,18 @@
+.headerLogo {
+    color: #000;
+    
+    border-bottom: #000 4px solid ;
+    
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 4px;
+    min-height: 10vh;
+    height: auto;
+    display: flex;
+    font-size: 32px;
+    font-weight: 750;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}

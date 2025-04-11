@@ -1,0 +1,287 @@
+.container {
+    background-color: #defe;
+    height: 12vh;
+    display: flex;
+    border: 0;
+    text-align: center;
+    width: 90%;
+    font-size: 18px;
+    font-weight: 750;
+    
+    justify-self: center;
+    
+    margin-top: 10px;
+}
+
+.addPlanContainer {
+    background-color: #defe;
+    height: 12vh;
+    display: flex;
+    border: 0;
+    text-align: center;
+    width: 90%;
+    font-size: 18px;
+    font-weight: 750;
+    display: flex;
+    
+    justify-self: center;
+    
+    margin-top: 10px;
+}
+
+
+.container, .namePlansContainer {
+    width: 90%;
+    margin-top: 10px;
+    min-height: 12vh;
+    height: auto;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #defe;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-self: center;
+}
+
+.addMuscleContainer {
+    width: 90%;
+    margin-top: 10px;
+    min-height: 12vh;
+    height: auto;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    background-color: #defe;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-self: center;
+}
+
+
+
+.namePlansContainer {
+    flex-direction: row;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    
+}
+
+.buttonTrainingPlan {
+    background-color: #defe;
+    display: flex;
+    margin-left: 4vw;
+    height: 100%;
+    border: 0 ;
+    
+    text-align: center;
+    
+    font-size: 24px;
+    font-weight: 750;
+    
+    
+    
+    
+}
+.nameMuscle {
+    font-size: 24px;
+    font-weight: 750;
+    margin-bottom: 3vh;
+    text-align: center;
+    width: 80%;
+    display: flex;
+    background-color: #deff;
+    height: 6vh;
+    border: 2px solid #0001;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+
+    justify-self: center;
+}
+
+.nameMuscleContainer {
+    display: flex;
+    border-bottom: 2px solid #000;
+    margin-bottom: 2vh;
+    padding-left: 3.1vw;
+    padding-right: 3.1vw;
+}
+.inputExercises {
+    border: 2px black solid ;
+    font-size: 18px;
+    font-weight: 750;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-bottom: 1vh;
+    width: 100%;
+    min-height: 6vh;
+    resize: none;
+}
+.deleteButton, .deletePlanButton {
+    display: flex;
+    max-height: 6vh;
+    margin-left: 3vh;
+    width: auto;
+    align-self: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 0.5vw;
+    /* padding-left: 5vw; */
+}
+
+.deletePlanButton {
+    margin-left: 4vw;
+    margin-right: 4vw;
+    
+}
+.inputExercisesContainer, .addExerciseContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.inputDaysContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.containerDays {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 10px;
+    min-height: 12vh;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #defe;
+    justify-self: center;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;  
+    
+    align-items: center;
+}
+
+.inputDaysContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+}
+
+.inputDays {
+    border: 2px black solid ;
+    font-size: 18px;
+    font-weight: 750;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-bottom: 1vh;
+    
+    min-height: 6vh;
+    resize: none;
+    
+}
+.addExerciseContainer {
+    height: 8vh;
+    margin-top: 8vh;
+    
+}
+
+.buttonAddExercise {
+    background-color: #defe;
+    border: 2px black solid ;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+
+    font-size: 18px;
+    font-weight: 750;
+    border-radius: 15px;
+}
+
+.sectionHeader {
+    margin-top: 8vh;
+    margin-bottom: 4vh;
+    display: flex;
+    justify-self: center;
+    font-weight: 500;
+    font-size: 28px;
+}
+.sectionHeader2Level {
+    margin-top: 8vh;
+    margin-bottom: 4vh;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+.selectMuscleContainer {
+    display: flex;
+}
+.select {
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    width: 86vw;
+    
+    margin-bottom: 2vh;
+    height: 8vh;
+    text-align: center;
+    border: #000 2px solid;
+    border-radius: 15px;
+}
+
+.buttonAddSelectContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.buttonAddSelect {
+    background-color: #defe;
+    display: flex;
+    margin-left: 4vw;
+    height: 8vh;
+    
+    border-radius: 15px;
+    text-align: center;
+    
+    font-size: 18px;
+    font-weight: 750;
+    width: 100%;
+    padding-right: 5vw;
+    border: #000 2px solid;
+}
+
+
+.buttonTrainingPlan {
+    background-color: #defe;
+    
+    border: 0;
+    justify-self: center;
+    align-self: center;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 750;
+    
+    
+}
+
+.addPlanContainer {
+    width: 90%;
+    margin-top: 10px;
+    
+    
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #defe;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-self: center;
+}

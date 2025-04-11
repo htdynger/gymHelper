@@ -1,0 +1,69 @@
+/* .buttonSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.selectDayButton {
+    background-color: #defe;
+    
+    height: 100%;
+    border: 0 ;
+    text-align: center;
+    padding-left: 3vh;
+    font-size: 18px;
+    font-weight: 750;
+    
+    
+    border-radius: 10px;
+    
+}
+
+.iconButton {
+    height: 80%;
+    width: auto;
+    margin-top: 1%;
+    
+    
+}
+
+.selectDayButtonContainer {
+    width: 90%;
+    margin-top: 10px;
+    height: 12vh;
+    background-color: #defe;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+
+.trainingPlanButtonContainer {
+    width: 90%;
+    margin-top: 10px;
+    height: 12vh;
+    background-color: #defe;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.trainingPlanButtonButton {
+    background-color: #defe;
+    
+    height: 100%;
+    border: 0 ;
+    text-align: center;
+    padding-left: 3vh;
+    font-size: 18px;
+    font-weight: 750;
+    
+    
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

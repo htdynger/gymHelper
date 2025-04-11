@@ -1,0 +1,38 @@
+.main {
+    background-color: #fff;
+    
+    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+    min-height: 10vh;
+    bottom: 0;
+    border-top: #000 4px solid ;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    
+}
+.mainButtonContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    height: 9vh;
+    border-radius: 10px;
+}
+.mainButton {
+    border: 0;
+    height: 1vh;
+    background-color: #0000;
+}
+.mainButtonIcon {
+    width: 6vh;
+    height: 6vh;
+}

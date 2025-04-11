@@ -1,0 +1,37 @@
+.all {
+    z-index: 100000;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.main {
+    margin-top: 8vh;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.buttonQuitContainer {
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    align-items: end;
+    
+}
+
+.buttonQuit {
+    margin: 8vh;
+    border: #000 2px solid;
+    border-radius: 8px;
+    height: 8vh;
+    width: 90vw;
+    background-color: #fff;
+}

@@ -1,0 +1,24 @@
+.mutateTimeContainer {
+    width: 90%;
+    margin-top: 10px;
+    height: 12vh;
+    background-color: #defe;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-self: center;
+    font-size: 20px;
+    font-weight: 750;
+}
+.mutateTimeButton {
+    background-color: #def;
+    font-size: 24px;
+    font-weight: 750;
+    border: none;
+    width: 100%;
+}
+.settings {
+    padding-bottom: 16vh;
+}
