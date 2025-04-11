@@ -19,6 +19,8 @@ const Finish = ({ stats }) => {
 
     const [setsCounter, setSetsCounter] = useState(0);
 
+    
+
     useEffect(() => {
         let totalSets = 0;
         Object.values(parsedStats).forEach(exerciseArray => {
@@ -34,7 +36,7 @@ const Finish = ({ stats }) => {
                 <div className={classes.exercises}> Упражнений: {exerciseCounter} </div>
                 <div className={classes.sets}> Подходов: {setsCounter} </div>
             </div>
-            <div className={classes.buttonQuitContainer}> 
+            <div onClick={() => {document.location.reload()}} className={classes.buttonQuitContainer}> 
                 <button className={classes.buttonQuit}> Закончить </button>
             </div>
         </div>
